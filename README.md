@@ -21,6 +21,18 @@ colcon build --packages-select bal_f4w_kisbeadando --symlink-install
 ```
 
 <details>
+
+``` r
+ros2 launch sze_sw1_szinusz launch_example1.launch.py
+```
+
+``` r
+ros2 run sze_sw1_szinusz gen_node 
+```
+
+``` r
+ros2 run sze_sw1_szinusz sum_node 
+```
 <summary> Don't forget to source before ROS commands.</summary>
 
 ``` bash
