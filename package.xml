@@ -3,8 +3,8 @@
 <package format="3">
   <name>bal_f4w_kisbeadando</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="todo@todo.com">TODO:</maintainer>
+  <description>fuggvenyek: Package description</description>
+  <maintainer email="balogh.levente.19@gmail.com">setofi_pandor:</maintainer>
   <license>GNU General Public License v3.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

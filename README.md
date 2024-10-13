@@ -47,7 +47,7 @@ Replace everything in the cloned repo:
 
 - `bal_f4w_kisbeadando` >> `bal_f4w_kisbeadando` (the folder was already renamed after `Use this template`)
 - `setofi-pandor` >> `setofi-pandor`
-- find all `todo` strings and fill the blanks
+- find all `bal_f4w_kisbeadando` strings and fill the blanks
 
 The easiest way is VS code:
 
