@@ -12,7 +12,7 @@ using namespace std::chrono_literals;
 class SumData : public rclcpp::Node
 {
 public:
-    SumData() : Node("sum_node"), count_(0), sine_(0.0), rand_(0.0), in_(0.0)
+    SumData() : Node("sum_node"), sine_(0.0), rand_(0.0), in_(0.0), count_(0)
     {
         RCLCPP_INFO(this->get_logger(), "Summing numbers");
 
