@@ -27,13 +27,11 @@ private:
         auto message_rnd = std_msgs::msg::Float32();
         
         // Reflected sine (y-axis mirrored): sin(-x)
-        message_sin.data = sin(-count_ / 50.0) * 100;  // Negate the argument to reflect the sine wave
+        message_sin.data = sin(-count_++ / 50.0) * 100;  // Negate the argument to reflect the sine wave
         message_rnd.data = rand() % 5;
 
         pub1_->publish(message_sin);
         pub2_->publish(message_rnd);
-
-        count_++;
     }
 
     rclcpp::TimerBase::SharedPtr timer_;
