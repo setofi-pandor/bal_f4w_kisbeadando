@@ -65,4 +65,12 @@ The easiest way is VS code:
 
 <p align="center"><img src="img/replace01.png" width="60%" /></p>
 
+## Graph
+
+<p align="center"><img src="img/mermaid_diagramm.png" width="60%" /></p>
+
+<p align="center"><img src="img/függvény_vizualizálás.png" width="60%" /></p>
+
+<p align="center"><img src="img/mermaid_diagramm_node-topic(active).png" width="60%" /></p>
+
 Now `colcon build` your ROS 2 package and you can start wokring.
